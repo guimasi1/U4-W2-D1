@@ -1,8 +1,9 @@
 package es3;
 
-public class BankException extends Exception {
+public class BancaException extends Exception {
     String message;
-    public BankException(String message) {
+    public BancaException(String message) {
         super(message);
+        this.message = message;
     }
 }
